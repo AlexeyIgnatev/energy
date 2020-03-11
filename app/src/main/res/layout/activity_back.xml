@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".BackActivity">
+
+    <include layout="@layout/home_icon"/>
+
+    <ImageView
+        android:id="@+id/back_message"
+        android:layout_width="399.5dp"
+        android:layout_height="94.5dp"
+        android:layout_marginTop="279.5dp"
+        android:src="@drawable/back_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_ok"
+        style="@style/button"
+        android:text="@string/yes"
+        android:layout_width="170dp"
+        android:layout_height="46.5dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/solid_button_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back_message" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        style="@style/button"
+        android:text="@string/no"
+        android:layout_width="170dp"
+        android:layout_height="46.5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/stroke_button_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_ok" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

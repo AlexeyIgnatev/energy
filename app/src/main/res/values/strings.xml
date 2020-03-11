@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">energy</string>
+    <string name="start_button_message">узнать</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="send">Отправить</string>
+    <string name="make_again">Создать\nзаново</string>
+    <string name="send_email_message">Отправить\nна почту</string>
+
+    <string-array name="themes">
+        <item>Business centers</item>
+        <item>Shopping malls</item>
+        <item>Air ports</item>
+    </string-array>
+</resources>
